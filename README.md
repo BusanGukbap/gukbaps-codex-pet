@@ -1,5 +1,7 @@
 # Vesper Codex Pet
 
+<img src="vesper-preview.png" alt="Vesper preview" width="480">
+
 Vesper is a Codex pet themed as a curious violet moon-drake. The character combines small draconic features with broad moth-like wings and a softly glowing leaf-shaped tail, giving it a nocturnal, fantasy-inspired look without relying on external assets or services.
 
 Vesper는 호기심 많은 보랏빛 달의 드레이크를 테마로 한 Codex 펫입니다. 작은 드래곤의 모습에 나방처럼 넓은 날개와 은은하게 빛나는 잎사귀 모양의 꼬리를 더해, 별도 자산이나 서비스 없이도 밤의 판타지 분위기를 냅니다.
@@ -16,6 +18,8 @@ The included manifest currently uses sprite version `2`. Keep `pet.json` and `sp
 
 ## Files
 
+- `vesper-preview.png` - README preview image for Vesper. This file is for documentation only and is not required for installation.
+- `vesper-preview.png` - README에서 Vesper를 미리 보여 주는 이미지입니다. 문서용 파일이라 설치에는 필요하지 않습니다.
 - `pet.json` - Codex pet manifest. Defines the pet ID, visible name, description, sprite version, and the relative path to the spritesheet.
 - `pet.json` - 펫 ID, 표시 이름, 설명, 스프라이트 버전, spritesheet의 상대 경로를 정의하는 Codex 펫 매니페스트입니다.
 - `spritesheet.webp` - Vesper's complete visual asset. Codex reads this file according to the sprite version declared in the manifest.
