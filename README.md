@@ -12,6 +12,45 @@ Vesper is a Codex pet themed as a curious violet moon-drake. The character combi
 
 Vesper는 호기심 많은 보랏빛 달의 드레이크를 테마로 한 Codex 펫입니다. 작은 드래곤의 모습에 나방처럼 넓은 날개와 은은하게 빛나는 잎사귀 모양의 꼬리를 더해, 별도 자산이나 서비스 없이도 밤의 판타지 분위기를 냅니다.
 
+## Animation gallery
+
+Each preview is rendered from Vesper's final spritesheet, so it shows the same motion used by the pet in Codex.
+
+각 미리보기는 Vesper의 최종 스프라이트시트에서 직접 만들었으며, Codex 펫이 실제로 사용하는 동작을 보여 줍니다.
+
+<table>
+  <tr>
+    <th>Idle / 대기</th>
+    <th>Drag right / 오른쪽 이동</th>
+    <th>Drag left / 왼쪽 이동</th>
+  </tr>
+  <tr>
+    <td><img src="previews/idle.gif" alt="Vesper idle animation" width="160"></td>
+    <td><img src="previews/running-right.gif" alt="Vesper moving right" width="160"></td>
+    <td><img src="previews/running-left.gif" alt="Vesper moving left" width="160"></td>
+  </tr>
+  <tr>
+    <th>Wave / 인사</th>
+    <th>Jump / 점프</th>
+    <th>Failed / 실패</th>
+  </tr>
+  <tr>
+    <td><img src="previews/waving.gif" alt="Vesper waving" width="160"></td>
+    <td><img src="previews/jumping.gif" alt="Vesper jumping" width="160"></td>
+    <td><img src="previews/failed.gif" alt="Vesper failed state" width="160"></td>
+  </tr>
+  <tr>
+    <th>Waiting / 응답 대기</th>
+    <th>Working / 작업 중</th>
+    <th>Review / 검토</th>
+  </tr>
+  <tr>
+    <td><img src="previews/waiting.gif" alt="Vesper waiting" width="160"></td>
+    <td><img src="previews/running.gif" alt="Vesper working" width="160"></td>
+    <td><img src="previews/review.gif" alt="Vesper reviewing" width="160"></td>
+  </tr>
+</table>
+
 ## About Vesper
 
 The pet is identified internally as `vesper` and appears in Codex as **Vesper**. Its visual definition is packaged as a single spritesheet so the pet can be installed by copying the repository files into the local Codex pets directory.
@@ -26,6 +65,8 @@ The included manifest currently uses sprite version `2`. Keep `pet.json` and `sp
 
 - `vesper-preview.gif` - Animated README preview showing Vesper's greeting loop. This file is for documentation only and is not required for installation.
 - `vesper-preview.gif` - Vesper의 인사 동작을 보여 주는 README용 애니메이션입니다. 문서용 파일이라 설치에는 필요하지 않습니다.
+- `previews/*.gif` - Animation gallery for all nine Vesper states. These files are for documentation only and are not required for installation.
+- `previews/*.gif` - Vesper의 9개 상태를 보여 주는 README용 애니메이션입니다. 설치에는 필요하지 않습니다.
 - `vesper-preview.png` - Static README preview image for Vesper.
 - `vesper-preview.png` - Vesper의 정적 README 미리보기 이미지입니다.
 - `pet.json` - Codex pet manifest. Defines the pet ID, visible name, description, sprite version, and the relative path to the spritesheet.

@@ -3,5 +3,7 @@
 !spritesheet.webp
 !vesper-preview.png
 !vesper-preview.gif
+!previews/
+!previews/*.gif
 !README.md
 !.gitignore
