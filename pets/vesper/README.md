@@ -55,6 +55,12 @@ Each preview is rendered from Vesper's final spritesheet, so it shows the same m
 
 ## About Vesper
 
+### Why "Vesper"?
+
+*Vesper* is the Latin word for "evening" and is also associated with the evening star. The name reflects Vesper's violet, moonlit palette, moth-like wings, and quiet nocturnal curiosity.
+
+*Vesper*는 라틴어로 “저녁”을 뜻하며 저녁별을 가리키는 말로도 쓰입니다. 보랏빛 달빛 팔레트, 나방 같은 날개, 조용한 밤의 호기심이라는 캐릭터의 분위기를 담은 이름입니다.
+
 The pet is identified internally as `vesper` and appears in Codex as **Vesper**. Its visual definition is packaged as a single spritesheet so the pet can be installed by copying the repository files into the local Codex pets directory.
 
 펫의 내부 ID는 `vesper`이며 Codex에는 **Vesper**로 표시됩니다. 시각 정보는 하나의 spritesheet에 담겨 있어, 저장소의 파일을 로컬 Codex 펫 폴더에 복사하면 설치할 수 있습니다.
