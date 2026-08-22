@@ -9,12 +9,15 @@ BusanGukbap이 만든 Codex 로컬 펫 모음입니다. 각 펫은 독립적으�
 <table>
   <tr>
     <th>Vesper</th>
+    <th>Valens</th>
   </tr>
   <tr>
     <td><a href="pets/vesper/"><img src="pets/vesper/vesper-preview.gif" alt="Vesper waving" width="280"></a></td>
+    <td><a href="pets/valens/"><img src="pets/valens/valens-preview.gif" alt="Valens waving" width="280"></a></td>
   </tr>
   <tr>
     <td>A curious violet moon-drake with moth-like wings and a glowing leaf-tail.<br>나방 같은 날개와 빛나는 잎사귀 꼬리를 지닌 보랏빛 달의 드레이크.</td>
+    <td>A steadfast young knight in polished plate armor and a midnight-blue cloak.<br>잘 닦인 판금 갑옷과 짙은 남색 망토를 두른 굳건한 젊은 기사.</td>
   </tr>
 </table>
 
@@ -28,7 +31,11 @@ Every pet lives in its own self-contained folder under `pets/`.
 
 ```text
 pets/
-└── vesper/
+├── vesper/
+│   ├── README.md
+│   ├── pet.json
+│   └── spritesheet.webp
+└── valens/
     ├── README.md
     ├── pet.json
     └── spritesheet.webp
