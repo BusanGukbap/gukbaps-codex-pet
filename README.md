@@ -1,6 +1,6 @@
 # Gukbap's Codex Pets
 
-A growing collection of original local pets for Codex.
+A growing collection of local pets for Codex.
 
 BusanGukbap이 만든 Codex 로컬 펫 모음입니다. 각 펫은 독립적으로 설치할 수 있는 완성된 패키지입니다.
 
@@ -10,14 +10,17 @@ BusanGukbap이 만든 Codex 로컬 펫 모음입니다. 각 펫은 독립적으�
   <tr>
     <th>Vesper</th>
     <th>Valens</th>
+    <th>PEN²</th>
   </tr>
   <tr>
     <td><a href="pets/vesper/"><img src="pets/vesper/vesper-preview.gif" alt="Vesper waving" width="280"></a></td>
     <td><a href="pets/valens/"><img src="pets/valens/valens-preview.gif" alt="Valens waving" width="280"></a></td>
+    <td><a href="pets/penpen/"><img src="pets/penpen/penpen-preview.gif" alt="PEN² waving" width="280"></a></td>
   </tr>
   <tr>
     <td>A curious violet moon-drake with moth-like wings and a glowing leaf-tail.<br>나방 같은 날개와 빛나는 잎사귀 꼬리를 지닌 보랏빛 달의 드레이크.</td>
     <td>A steadfast young knight in polished plate armor and a midnight-blue cloak.<br>잘 닦인 판금 갑옷과 짙은 남색 망토를 두른 굳건한 젊은 기사.</td>
+    <td>An unofficial fan-made pet of PenPen from Neon Genesis Evangelion.<br>신세기 에반게리온의 펜펜을 바탕으로 만든 비공식 팬 제작 펫.</td>
   </tr>
 </table>
 
@@ -35,7 +38,11 @@ pets/
 │   ├── README.md
 │   ├── pet.json
 │   └── spritesheet.webp
-└── valens/
+├── valens/
+│   ├── README.md
+│   ├── pet.json
+│   └── spritesheet.webp
+└── penpen/
     ├── README.md
     ├── pet.json
     └── spritesheet.webp
